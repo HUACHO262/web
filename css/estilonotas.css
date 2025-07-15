@@ -1,0 +1,62 @@
+
+
+center {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+table {
+    width: 20%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ff6347;
+}
+.image-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 30px auto; /* Añade espacio alrededor del div */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 2px solid #ddd; /* Borde ligero */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 30%; /* Limita el ancho del div */
+}
+
+.image-container img {
+    max-width: 100%; /* Escala la imagen para adaptarse al contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados en la imagen */
+    border: 1px solid #ccc; /* Borde alrededor de la imagen */
+}
+
